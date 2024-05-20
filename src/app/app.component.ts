@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public title: string = 'Mi primera app en Angular';
 
+  /**
+   * npm del cli
+   * npm copyfiles
+   */
+
 }

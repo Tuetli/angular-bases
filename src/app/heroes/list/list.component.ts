@@ -15,7 +15,6 @@ export class ListComponent {
     let lastHeroName: string = this.heroNames[(this.heroNames.length) - 1];
     this.heroNames.pop();
 
-    console.log('Last Hero Name: ', lastHeroName);
     this.deletedHeroName = lastHeroName;
   }
 
